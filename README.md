@@ -31,3 +31,8 @@ add ( String, [String] ) Добавляет к cname классы
 remove ( String, [String] ) Удаляет из cname классы
 toggle ( String, [Boolean] ) Если класс у элемента отсутствует - добавляет, иначе - убирает. Когда вторым параметром передано false - удаляет указанный класс, а если true - добавляет.
 Например, значение classNames.cname = 'btn'. После вызова className.toggle('btn-primary') значение classNames.cname должно стать 'btn btn-primary'. При повторном вызове classNames.toggle('btn-primary'), значение должно вернуться в 'btn'.
+
+### Task 6
+
+Напишите фукнцию lorem(n), которая принимает положительное целое n (от 1 до 455) и при вызове возвращает строку длиной n символов из строки
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus eius vel facere suscipit error aliquid at illum molestias cumque accusantium autem alias perspiciatis magnam fugiat ipsa aut, sequi magni quam! Aliquid reiciendis nostrum quasi assumenda mollitia deleniti et quam, asperiores aspernatur ipsum porro libero consequatur minima laboriosam consectetur quisquam illum eum esse aliquam nemo excepturi nesciunt? Lorem ipsum dolor sit amet et"
