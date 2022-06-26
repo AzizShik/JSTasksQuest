@@ -36,3 +36,11 @@ toggle ( String, [Boolean] ) Если класс у элемента отсут�
 
 Напишите фукнцию lorem(n), которая принимает положительное целое n (от 1 до 455) и при вызове возвращает строку длиной n символов из строки
 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus eius vel facere suscipit error aliquid at illum molestias cumque accusantium autem alias perspiciatis magnam fugiat ipsa aut, sequi magni quam! Aliquid reiciendis nostrum quasi assumenda mollitia deleniti et quam, asperiores aspernatur ipsum porro libero consequatur minima laboriosam consectetur quisquam illum eum esse aliquam nemo excepturi nesciunt? Lorem ipsum dolor sit amet et"
+
+### Task 7
+Напишите фукнцию myReplace(s1, s2, s3), которая будет принимать три строковых аргумента s1, s2, s3 и заменят ьв первом аргументе s1 все слова, совпадающие со вторым аргументом s2, на третий аргумент s3. Функция должна возвращать измененную строку. Например, вызов
+
+myReplace("Ехал Грека, через реку", "р", "л")
+
+должен вернуть строку "Ехал Глека, челез леку"
+
